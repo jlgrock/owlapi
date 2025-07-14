@@ -25,6 +25,6 @@ jobs:
         uses: ikmdev/maven-clean-install-build-action@change_distribution
         with:
           branch_name: ${{github.ref_name}}
-          java_distribution: 'zulu'
+          java_distribution: 'corretto'
           java_version: '24.0.1'
          

@@ -22,8 +22,9 @@ jobs:
     runs-on: ubuntu-24.04
     steps:      
       - name: Build IKMDEV Code
-        uses: ikmdev/maven-clean-install-build-action@v3
+        uses: ikmdev/maven-clean-install-build-action@change_distribution
         with:
           branch_name: ${{github.ref_name}}
+          java_distribution: 'zulu'
           java_version: '24.0.1'
          

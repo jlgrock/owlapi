@@ -26,5 +26,5 @@ jobs:
         with:
           branch_name: ${{github.ref_name}}
           java_distribution: 'corretto'
-          java_version: '24.0.1'
+          java_version: '24'
          
